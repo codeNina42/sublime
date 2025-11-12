@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sublime-Like Code Editor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="header">
+    <h1>Sublime-Style Editor</h1>
+    <button id="saveBtn">💾 Save</button>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" data-file="index.html">index.html</button>
+    <button class="tab" data-file="app.js">app.js</button>
+    <button class="tab" data-file="style.css">style.css</button>
+  </div>
+
+  <div id="editor" contenteditable="true" spellcheck="false"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
